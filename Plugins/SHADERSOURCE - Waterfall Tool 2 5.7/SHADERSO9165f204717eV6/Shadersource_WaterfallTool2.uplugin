@@ -1,0 +1,48 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0d",
+	"FriendlyName": "SHADERSOURCE: Waterfall Tool 2",
+	"Description": "This plugin provides an Editor Mode for creating and modifying waterfalls in a level.",
+	"Category": "SHADERSOURCE",
+	"CreatedBy": "SHADERSOURCE / Pending Studios",
+	"CreatedByURL": "https://www.shadersource.io/",
+	"DocsURL": "https://docs.shadersource.io/new-assets/waterfall-tool-2",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/38242dcaef3047dbbe29f2886e0ff016",
+	"SupportURL": "https://docs.shadersource.io/support",
+	"EngineVersion": "5.7.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "Shadersource_Waterfall2EdMode",
+			"Type": "Editor",
+			"LoadingPhase": "PostDefault",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "Shadersource_Waterfall2Runtime",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "GeometryScripting",
+			"Enabled": true
+		},
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "Niagara",
+			"Enabled": true
+		}
+	]
+}
